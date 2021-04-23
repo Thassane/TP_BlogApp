@@ -1,0 +1,128 @@
+@charset "TTF-8";
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Lato' sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.container-fluid {
+padding: 0;
+}
+
+.separator {
+height: 3px;
+width: 5%;
+border: none;
+box-shadow: none;
+background-color: #4c74ca;
+}
+
+/* header */
+.header { background-color: #4c74ca;
+	height: 60px;
+	line-height: 60px;
+}
+
+.view{
+position:absolute;
+top: 60px; right: 0; bottom: 60px; left: 0;
+
+}
+
+.logo {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.menu {
+	float: right;
+}
+
+.menu a {
+	color: #ffffff;
+	margin-right: 15px;
+}
+.menu a:hover {
+	color: #180505;
+}
+
+/* bannière */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+.ban {
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: #ffffff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom {
+    background-color: #4c74ca;
+    color: #ffffff;
+}
+
+.inner-banner .ban-custom:hover {
+    background-color: #4c74ca;
+}
+
+/* about */
+#about {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.about article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about article h2 {
+    text-align:  center;
+}
+
+.panel {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+
+.footer {
+    background-color: #ffffff;
+}
+
+#contact {
+    color: #181818;
+    text-align: center;
+}
+
+.
