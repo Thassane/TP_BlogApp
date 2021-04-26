@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="TTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/materialize.css"> --> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> -->
+    <title Infotech ></title>
+    <!-- CSS -->
+
+  </head>
+ <!-- contenu du site -->
+ <style>
+  .slider {
+    width: 500px;
+    overflow: hidden;
+    margin: 200px auto;
+  }
+  .slides {
+    width: calc(500px*3);
+    animation: glisse 15s infinite;
+  }
+  .slide {
+    float: left;
+  }
+  @keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-500px);
+    }
+    43% {
+      transform: translateX(-500px);
+    }
+    66% {
+      transform: translateX(-1000px);
+    }
+    76% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+</style> 
+<body>
+  <header class="container-fluid header">
+    <div class="container">
+      <a href="#about" class="logo"> Infotech news </a> 
+      <nav class="menu">
+        <a href="#"> Accueil </a>
+        <a href="#about"> Blog </a>
+        <a href="#contact"> Contact </a>
+      </nav>
+    </div>
+  
+  </header>
+
+  <section class="container-fluid banner">
+    <div class="ban">
+      <img src="img/ban.jpg" alt="bannière du site" />
+    </div>
+    <div class="inner-banner">
+      <h1> Bienvenue sur site "Infotech" </h1>
+    </div>
+  </section>  
+
+  <!--à propos-->
+  <section class="container-fluid about">
+    <div class="container">
+      <div class="row">
+        <h2 id="about"> Informatique news </h2>
+        <hr class="separator">
+        <article class="col-md' col-lg-4 col-xs-12 col-sm-12">
+          <h2>Software</h2>
+          <div class="card">
+            <div class="card-image">
+       </div>
+         <div class="slider">
+          <div class="slides">
+           <div class="slide"><img src="img/archilog.png" alt="" /></div>
+           <div class="slide"><img src="img/alder-lake.png"alt="" /></div>
+           <div class="slide"><img src="img/bases_don.png" alt="" /></div>
+                  </div>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">Nouveauté en Apllication</p>
+              </div>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Delectus possimus eaque officiis nemo quis, incidunt amet, repellat repudiandae quae in nesciunt similique est maiores? Quae vitae doloremque natus reiciendis at.
+                     
+              </div>
+            </div>
+          </div>
+
+         
+        </article>
+        <article class="col-md' col-lg-4 col-xs-12 col-sm-12">
+          <h2>Hardware</h2>
+          <div class="card">
+            <div class="card-image">
+            </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-30x30">
+                      <img src="img/process_ipGen.png">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Nouveauté en Apllication</p>
+                </div>
+              </div>
+              <div class="content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Delectus possimus eaque officiis nemo quis, incidunt amet, repellat repudiandae quae in nesciunt similique est maiores? Quae vitae doloremque natus reiciendis at.
+                       
+        </article>
+        <article class="col-md' col-lg-4 col-xs-12 col-sm-12">
+          <h2> Développement Appli</h2>
+          <div class="card">
+            <div class="card-image">
+            </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-30x30">
+                      <img src="img/image-perso1.png">
+                    </figure>
+                    
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Nouveauté en Apllication</p>
+                </div>
+              </div>
+              <div class="content">
+                  "Il y a deux choses difficiles en informatique: l'invalidation du cache, l'attribution de noms et les erreurs ponctuelles."
+                   Jeff Atwood
+                       
+        </article>
+      </div>
+    </div>
+
+
+  </section>
+  <footer class="container-fluid footer">
+    <div class="container">
+       <div class="row">
+        <h2 id="contact"> Contactez-nous !</h2>
+         <hr class="separator">
+         <div class="span6">
+        <div class="col-sm-12 col-lg-12">
+            <h1 class="h1">
+            <small>Formulaire de contact </small></h1>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-md-8">
+        <div class="well well-sm">
+            <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">
+                            Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Entrer votre nom" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            Email </label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="Entrer votre email" required="required" /></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">
+                            Objet</label>
+                        <select id="subject" name="subject" class="form-control" required="required">
+                            <option value="na" selected="">Choose One:</option>
+                            <option value="service">General Customer Service</option>
+                            <option value="suggestions">Suggestions</option>
+                            <option value="product">Product Support</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="name">
+                            Message</label>
+                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                        Envoyer Message</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-4">
+        
+    </div>
+</div>
+</div>
+
+
+  
+
+
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="cordova.js"></script>
+<script src="js/index.js" asp-append-version="true"></script>
+<script src="js/materialize.js"></script>
+<script src="js/login.js"></script>
+ 
+  </body>
+  
+</html>
+
